@@ -1,4 +1,3 @@
-https://colab.research.google.com/drive/1sHOS6NFIBW5aZGz5RePyexFe28MvaPU6
 # Data Science Image Clustering: Project Overview
 * Created a tool that clustering image (Accuracy 77%) to help platform classifying image when users upload pictures.
 * Optimized Autoencoder with Convolutional Neural Network to reach the best model.
@@ -21,10 +20,8 @@ I use PyTorch to Build an Autoencoder with convolutional neural network and eval
    
 
 ## Model performance
- * **Random Forest:** Accuracy = 77%  
+ Accuracy = 77%  
+![alt text](https://github.com/ILing82816/ds_image_clustering_proj/blob/master/Figure/accuracy.png)
 ![alt text](https://github.com/ILing82816/ds_image_clustering_proj/blob/master/Figure/Clustering.png)   
- 
-![alt text](https://github.com/ILing82816/ds_image_clustering_proj/blob/master/Figure/accuracy.png)  
- 
 ![alt text](https://github.com/ILing82816/ds_image_clustering_proj/blob/master/Figure/compare_ori_and_reconstruct.png)  
   
