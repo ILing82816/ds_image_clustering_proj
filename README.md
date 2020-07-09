@@ -18,10 +18,11 @@ I used data set of image that be labeled in Kaggle:
 * valY.npy: there are ValX's label. This data set will not use training.    
 
 ## Model Building, Dimension Reduction and Clustering
-First, I set up autoencoder with CNN model and used PyTorch to pick the best function. Because of image input, I choose covolutional neural network to have less parameters than deep neural network. The autoencoder can help me feature extraction. I thought the model and compute with PyTorch would be effective.
+First, I set up autoencoder with CNN model and used PyTorch to pick the best function. Because of image input, I choose covolutional neural network to have less parameters than deep neural network. The autoencoder can help me feature extraction. I thought the model and compute with PyTorch would be effective.  
+Using the original and reconstrution picture to evaluate the autoencoder:    
+![alt text](https://github.com/ILing82816/ds_image_clustering_proj/blob/master/Figure/compare_ori_and_reconstruct.png)
 
 Second, I do clustring. I tried directly to clustering by K-Means, the accuray won't be good. Therefore, I tried to use PCA nad t-SNE to do dimension reduction at first and then clustering by K-Means.
-   
 
 ## Model performance
  Accuracy = 77%  
@@ -29,6 +30,5 @@ The clustering:
 ![alt text](https://github.com/ILing82816/ds_image_clustering_proj/blob/master/Figure/Clustering.png)  
 The variance of accuracy and error every 10 epochs (total training = 100):    
 ![alt text](https://github.com/ILing82816/ds_image_clustering_proj/blob/master/Figure/accuracy.png)    
-Using the original and reconstrution picture to evaluate the autoencoder:    
-![alt text](https://github.com/ILing82816/ds_image_clustering_proj/blob/master/Figure/compare_ori_and_reconstruct.png)    
+    
   
