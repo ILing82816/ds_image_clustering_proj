@@ -7,9 +7,9 @@
 
 ## Code and Resources Used
 **Python Version:** 3.7  
-**Packages:** pandas, numpy, torch, sklearn, matplotlib
-**Data:** https://www.kaggle.com/c/ml2020spring-hw9
-**Autoencoder Colab:** https://colab.research.google.com/drive/1sHOS6NFIBW5aZGz5RePyexFe28MvaPU6
+**Packages:** pandas, numpy, torch, sklearn, matplotlib  
+**Data:** https://www.kaggle.com/c/ml2020spring-hw9  
+**Autoencoder Colab:** https://colab.research.google.com/drive/1sHOS6NFIBW5aZGz5RePyexFe28MvaPU6  
 
 ## Data Set
 I used data set of image that be labeled in Kaggle:
@@ -19,7 +19,8 @@ I used data set of image that be labeled in Kaggle:
 
 ## Model Building, Dimension Reduction and Clustering
 First, I set up autoencoder with CNN model and used PyTorch to pick the best function. Because of image input, I choose covolutional neural network to have less parameters than deep neural network. The autoencoder can help me feature extraction. I thought the model and compute with PyTorch would be effective.
-I tried directly to clustering by K-Means, the accuray won't be good. Therefore, I tried to use PCA nad t-SNE to do dimension reduction at first and then clustering by K-Means.
+
+Second, I do clustring. I tried directly to clustering by K-Means, the accuray won't be good. Therefore, I tried to use PCA nad t-SNE to do dimension reduction at first and then clustering by K-Means.
    
 
 ## Model performance
